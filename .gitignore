@@ -1,0 +1,48 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Tests and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Linters and type checkers
+.ruff_cache/
+.mypy_cache/
+.pyright/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+*.code-workspace
+
+# Operating system
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# Local PostgreSQL data
+postgres_data/
+pgdata/
